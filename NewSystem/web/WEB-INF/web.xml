@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+
+    <servlet>
+        <servlet-name>NewsShowServlet</servlet-name>
+        <servlet-class>servlet.NewsShowServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>NewsShowServlet</servlet-name>
+        <url-pattern>/NewsShowServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>oneNewsServlet</servlet-name>
+        <servlet-class>servlet.oneNewsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>oneNewsServlet</servlet-name>
+        <url-pattern>/oneNewsServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>servlet.LoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>NewsAddServlet</servlet-name>
+        <servlet-class>servlet.NewsAddServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>NewsAddServlet</servlet-name>
+        <url-pattern>/NewsAddServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdNewsServlet</servlet-name>
+        <servlet-class>servlet.AdNewsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdNewsServlet</servlet-name>
+        <url-pattern>/AdNewsServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeletServlet</servlet-name>
+        <servlet-class>servlet.DeletServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeletServlet</servlet-name>
+        <url-pattern>/DeletServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegistServlet</servlet-name>
+        <servlet-class>servlet.RegistServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegistServlet</servlet-name>
+        <url-pattern>/RegistServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdataServlet</servlet-name>
+        <servlet-class>servlet.UpdataServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdataServlet</servlet-name>
+        <url-pattern>/UpdataServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ChangServlet</servlet-name>
+        <servlet-class>servlet.ChangServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ChangServlet</servlet-name>
+        <url-pattern>/ChangServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>FindKindServlet</servlet-name>
+        <servlet-class>servlet.FindKindServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FindKindServlet</servlet-name>
+        <url-pattern>/FindKindServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Login__FalseServlet</servlet-name>
+        <servlet-class>servlet.Login__FalseServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Login__FalseServlet</servlet-name>
+        <url-pattern>/Login__FalseServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>QueryNewsServlet</servlet-name>
+        <servlet-class>servlet.QueryNewsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>QueryNewsServlet</servlet-name>
+        <url-pattern>/QueryNewsServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
